@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Disallow sensitive parameters and internal endpoints
+Disallow: /api/
+Disallow: /admin/
+Disallow: /*?*query=
+Disallow: /*.json$
+
+Sitemap: https://parfumerie-la-rosa.vercel.app/sitemap.xml
